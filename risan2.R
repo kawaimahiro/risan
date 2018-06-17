@@ -39,9 +39,10 @@ f_s = function(n)
   }
   return(1)
 }
-for(i in 1:100)
+for(i in 1:length(k))
 {
-  result = f_s(i)
+  n = k[i]
+  result = f_s(n)
   if(result == 0)
     break
 }
