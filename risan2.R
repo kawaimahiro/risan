@@ -1,5 +1,6 @@
 library(pracma)
-k = sample(1:1000,100)
+#if the result shows True, the proposition is True. Or the proposition is False
+k = sample(1:1000,100) #choice 100 random n in 1:1000
 
 f1 = function(n)
 {
